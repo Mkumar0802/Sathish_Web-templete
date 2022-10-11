@@ -2,7 +2,10 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.js";
 import { loadProgressBar } from "axios-progress-bar";
 import "axios-progress-bar/dist/nprogress.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 loadProgressBar();
 
@@ -27,7 +30,6 @@ function App() {
             }
           />
         </Routes>
-      
       </HashRouter>
     </>
   );

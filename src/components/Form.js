@@ -93,9 +93,12 @@ function Form() {
         class="
 		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1665478447/13107749_5137894_wj41iq.jpg')]  h-full w-full bg-cover bg-no-repeat  "
       >
-        <div className="container py-20 mx-auto lg:py-24">
+        <div
+            
+          className="container py-20 mx-auto lg:py-24"
+        >
           {loadingInProgress ? (
-            <div className="flex justify-center h-56 gap-4">
+            <div    className="flex justify-center h-56 gap-4">
               <div className="grid content-center">
                 <div
                   class="w-12 h-12 rounded-full animate-spin

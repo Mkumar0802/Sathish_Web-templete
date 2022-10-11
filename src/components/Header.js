@@ -2,9 +2,9 @@ import React from "react";
 
 function Header() {
   return (
-    <section class=" bg-gray-50">
+    <section class=" ">
       {" "}
-      <header class="sticky top-0 bg-white shadow">
+      <header class="sticky top-0 bg-zinc-500 shadow">
         {" "}
         <div class="flex items-center justify-between p-4 mx-auto max-w-7xl">
           {" "}

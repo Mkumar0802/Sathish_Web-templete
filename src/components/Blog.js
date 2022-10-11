@@ -3,7 +3,7 @@ import React from "react";
 function Blog() {
   return (
     <div>
-      <section class="bg-white ">
+      <section class="bg-zinc-200 ">
         <div class="container  py-10 mx-auto">
           <div class="flex items-center justify-between">
             <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">
@@ -14,7 +14,7 @@ function Blog() {
           <hr class="my-8 border-gray-200 " />
 
           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
-            <div>
+            <div data-aos="zoom-in-down"  >
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -56,7 +56,7 @@ function Blog() {
               </div>
             </div>
 
-            <div>
+            <div data-aos="zoom-in-down" data-aos-delay="50" >
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -100,7 +100,7 @@ function Blog() {
               </div>
             </div>
 
-            <div>
+            <div data-aos="zoom-in-down" data-aos-delay="100">
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"

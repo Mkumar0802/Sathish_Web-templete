@@ -11,12 +11,12 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 function Testimonial() {
   return (
     <div>
-      <div className="container mx-auto">
-        <div className="absolute z-0 flex items-center justify-between h-full bg-white min-w-fit ">
+      <div   className="container mx-auto">
+        <div   className="absolute z-0 flex items-center justify-between h-full bg-white min-w-fit ">
           <div className="w-1/3 h-full " />
-          <div className="w-4/6 h-full ml-16 bg-gray-100" />
+          <div data-aos="" className="w-4/6 h-full ml-16 bg-gray-100" />
         </div>
-        <div className="relative z-40 py-20 2xl:mx-auto 2xl:container">
+        <div  className="relative z-40 py-20 2xl:mx-auto 2xl:container">
           <CarouselProvider
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
@@ -32,9 +32,9 @@ function Testimonial() {
             </h1>
             <Slider>
               <Slide index={0} tabIndex="null">
-                <div className="flex">
+                <div data-aos="flip-down"   data-aos-duration="1000"  className="flex">
                   <div className="mt-14 md:flex">
-                    <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
+                    <div   className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
                       <img
                         src="https://i.ibb.co/4g1D9cv/imgslider1.png"
                         alt="profile"
