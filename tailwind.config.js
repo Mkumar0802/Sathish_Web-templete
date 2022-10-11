@@ -28,6 +28,7 @@ module.exports = {
       sans: ["Open Sans", "sans-serif"],
       Helvetica: ["Open Sans", "sans-serif"],
       Ubuntu: ["Ubuntu", "sans-serif"],
+      Rufina: ["Rufina", "serif"],
     },
 
     container: {
@@ -40,5 +41,15 @@ module.exports = {
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [require("daisyui")],
+  daisyui: {
+    styled: true,
+    themes: true,
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+    darkTheme: "false",
+  },
 };

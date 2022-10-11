@@ -11,12 +11,12 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 function Testimonial() {
   return (
     <div>
-      <div className="">
-        <div className="absolute z-0 flex items-center justify-between w-full h-full bg-white ">
+      <div className="container mx-auto">
+        <div className="absolute z-0 flex items-center justify-between h-full bg-white min-w-fit ">
           <div className="w-1/3 h-full " />
           <div className="w-4/6 h-full ml-16 bg-gray-100" />
         </div>
-        <div className="relative z-40 px-8 py-20 xl:px-20 2xl:mx-auto 2xl:container">
+        <div className="relative z-40 py-20 2xl:mx-auto 2xl:container">
           <CarouselProvider
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
@@ -37,7 +37,7 @@ function Testimonial() {
                     <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
                       <img
                         src="https://i.ibb.co/4g1D9cv/imgslider1.png"
-                        alt="image of profile"
+                        alt="profile"
                         className="flex-shrink-0 object-cover w-full h-full rounded shadow-lg object-fit"
                       />
                       <div className="absolute top-0 right-0 items-center justify-center hidden w-32 h-32 -mr-16 bg-indigo-100 rounded-full md:flex -mt-14">
@@ -80,7 +80,7 @@ function Testimonial() {
                     <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
                       <img
                         src="https://i.ibb.co/4g1D9cv/imgslider1.png"
-                        alt="image of profile"
+                        alt="profile"
                         className="flex-shrink-0 object-cover w-full h-full rounded shadow-lg object-fit"
                       />
                       <div className="absolute top-0 right-0 items-center justify-center hidden w-32 h-32 -mr-16 bg-indigo-100 rounded-full md:flex -mt-14">
@@ -97,6 +97,8 @@ function Testimonial() {
                         </h1>
                         <p className="mt-4 text-base font-medium leading-6 text-gray-600">
                           Our core values are at the heart of all that we do.
+
+                          
                           They are integrated into our daily work lives and help
                           us to remember our customers always comes first, the
                           last thank you should always comes from us.
