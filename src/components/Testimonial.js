@@ -32,7 +32,7 @@ function Testimonial() {
             </h1>
             <Slider>
               <Slide index={0} tabIndex="null">
-                <div data-aos="flip-down"   data-aos-duration="1000"  className="flex">
+                <div   className="flex">
                   <div className="mt-14 md:flex">
                     <div   className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
                       <img

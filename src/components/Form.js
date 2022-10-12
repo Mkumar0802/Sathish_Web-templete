@@ -6,6 +6,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { UrlLink } from "./Url";
+import ScrollToTop from "./ScrolltoTop";
 
 const phoneRegExp =
   /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
@@ -107,8 +108,7 @@ function Form() {
               </div>
             </div>
           ) : (
-            <div data-aos="flip-up"  data-aos-delay="50"
-            data-aos-duration="1000"  className="relative p-10 text-gray-100 rounded-lg sm:p-12 md:p-16 bg-slate-50 ">
+            <div   className="relative p-10 text-gray-100 rounded-lg sm:p-12 md:p-16 bg-slate-50 ">
               <div tw ="mx-auto max-w-4xl">
                 <h2 className="text-3xl font-bold text-black sm:text-4xl">
                   Organize an Event
@@ -208,6 +208,7 @@ function Form() {
                   </form>
                 </div>
               </div>
+              <ScrollToTop/>
             </div>
           )}
         </div>

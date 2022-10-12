@@ -1,25 +1,17 @@
 import React from "react";
-import Header from "./Header";
+// import Header from "./Header";
 
 function Content() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div
         className="min-h-screen hero"
         style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}
       >
         <div className="bg-black hero-overlay bg-opacity-60"></div>
 
-        <div
-          data-aos="zoom-out"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-      
-    
-          className="text-center hero-content text-neutral-content"
-        >
+        <div className="text-center hero-content text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold text-white">Hello there</h1>
             <p className="mb-5 text-white">

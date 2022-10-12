@@ -21,9 +21,7 @@ function Features() {
             </Link>
           </div>
           <div
-            data-aos="zoom-in-down"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
+           
             class=" "
           >
             <img className="rounded-xl"  src="https://images.unsplash.com/photo-1661347333292-b783583d4210?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80://images.unsplash.com/photo-1611963169787-ac9e3a65b27b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="just" />
@@ -44,10 +42,7 @@ function Features() {
             </Link>
           </div>
           <div
-            data-aos="zoom-in-down"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000"
-            data-aos-delay="100"
+          
             class=" "
           > <img className="rounded-xl" src="https://images.unsplash.com/photo-1590071089561-2087ff1fc418?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=380&q=80://images.unsplash.com/photo-1611963169787-ac9e3a65b27b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="just" /></div>
         </div>
