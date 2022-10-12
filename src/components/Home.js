@@ -16,7 +16,7 @@ function Home() {
 
       <Features />
       <Blog />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Form />
       <Footer />
     </div>
