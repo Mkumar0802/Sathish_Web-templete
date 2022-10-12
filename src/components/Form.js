@@ -107,8 +107,9 @@ function Form() {
               </div>
             </div>
           ) : (
-            <div className="relative p-10 text-gray-100 rounded-lg sm:p-12 md:p-16 bg-slate-50 ">
-              <div tw="mx-auto max-w-4xl">
+            <div data-aos="flip-up"  data-aos-delay="50"
+            data-aos-duration="1000"  className="relative p-10 text-gray-100 rounded-lg sm:p-12 md:p-16 bg-slate-50 ">
+              <div tw ="mx-auto max-w-4xl">
                 <h2 className="text-3xl font-bold text-black sm:text-4xl">
                   Organize an Event
                 </h2>
