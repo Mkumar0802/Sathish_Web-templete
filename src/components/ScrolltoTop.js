@@ -8,7 +8,7 @@ export default function ScrollToTop() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 
@@ -28,13 +28,16 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="fixed bg-pink bottom-3 right-3  cursor-pointer">
+    <div className="fixed cursor-pointer bg-pink bottom-3 right-3">
       {isVisible && (
         <div
           onClick={scrollToTop}
-          className="fixed p-2 rounded-lg bg-pink-900 bottom-3 right-3 lg:bottom-5 lg:right-5 cursor-pointer"
+          className="fixed p-2 bg-blue-600 rounded-lg cursor-pointer bottom-3 right-3 lg:bottom-5 lg:right-5"
         >
-        <span className="text-2xl"> <ion-icon name="arrow-up-circle"></ion-icon></span> 
+          <span className="text-2xl">
+            {" "}
+            <ion-icon name="arrow-up-circle"></ion-icon>
+          </span>
         </div>
       )}
     </div>
