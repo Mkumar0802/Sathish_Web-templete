@@ -32,12 +32,14 @@ export default function ScrollToTop() {
       {isVisible && (
         <div
           onClick={scrollToTop}
-          className="fixed p-2 bg-blue-600 rounded-lg cursor-pointer bottom-3 right-3 lg:bottom-5 lg:right-5"
+          className="fixed p-2 bg-sky-500 rounded-lg cursor-pointer bottom-3 right-3 lg:bottom-5 lg:right-5"
         >
           <span className="text-2xl">
             {" "}
             <ion-icon name="arrow-up-circle"></ion-icon>
+  
           </span>
+          
         </div>
       )}
     </div>

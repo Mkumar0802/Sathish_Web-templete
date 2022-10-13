@@ -3,12 +3,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 
+
 function Content() {
   return (
     <div>
       <Navbar/>
       <div
-        className="relative min-h-screen hero"
+        className=" min-h-screen hero "
         style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}
       >
         <div></div>
@@ -32,9 +33,10 @@ function Content() {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="bg-sky-500 rounded-md px-3 py-3">Get Started</button>
           </div>
         </div>
+     
       </div>
     </div>
   );

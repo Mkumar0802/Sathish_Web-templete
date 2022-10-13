@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
   return (
@@ -31,20 +33,20 @@ function Navbar() {
                 >
                   <ul class="blcok lg:flex">
                     <li class="group relative">
-                      <a
-                        href="#home"
+                      <Link
+                        to="/home"
                         class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
                       >
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li class="group relative">
-                      <a
-                        href="/#about"
+                      <Link
+                        to="/form"
                         class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                       >
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li class="group relative">
                       <a

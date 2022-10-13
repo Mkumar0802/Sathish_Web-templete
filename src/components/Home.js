@@ -32,13 +32,17 @@ function Section({ children }) {
 function Home() {
   const { scrollYProgress } = useScroll();
   return (
-    <div>
+    <div className="scroll-smooth"> 
       <motion.div
-        className=" fixed inset-x-0 h-2 top-0 bg-blue-600 text-2xl font-medium text-red-500 text-center p-0.5 leading-none rounded-l-full
+        className=" fixed inset-x-0 h-2 top-0 bg-sky-500 text-2xl font-medium text-red-500 text-center p-0.5 leading-none rounded-l-full
   transform-origin: 0%"
         style={{ scaleX: scrollYProgress }}
       />
-      <Section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+      <Section
+        class="wow slideInLeft"
+        data-wow-duration="2s"
+        data-wow-delay="5s"
+      >
         {" "}
         <Content />{" "}
       </Section>

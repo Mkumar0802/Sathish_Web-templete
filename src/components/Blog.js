@@ -3,15 +3,15 @@ import React from "react";
 function Blog() {
   return (
     <div>
-      <section class="bg-zinc-200 ">
+      <section class="bg-gray-900 ">
         <div class="container  py-10 mx-auto">
           <div class="flex items-center justify-between">
-            <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">
+            <h1 class="text-3xl font-semibold text-sky-500 capitalize lg:text-4xl ">
               recent posts{" "}
             </h1>
           </div>
 
-          <hr class="my-8 border-gray-200 " />
+          <hr class="my-8 border-sky-500 " />
 
           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
             <div>
@@ -22,13 +22,13 @@ function Blog() {
               />
 
               <div class="mt-8">
-                <span class="text-blue-500 uppercase">category</span>
+                <span class="text-sky-500 uppercase">category</span>
 
-                <h1 class="mt-4 text-xl font-semibold text-gray-800 ">
+                <h1 class="mt-4 text-xl font-semibold text-sky-500  ">
                   What do you want to know about UI
                 </h1>
 
-                <p class="mt-2 text-gray-500 ">
+                <p class="mt-2 text-white ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                   est asperiores vel, ab animi recusandae nulla veritatis id
                   tempore sapiente
@@ -37,7 +37,8 @@ function Blog() {
                 <div class="flex items-center justify-between mt-4">
                   <div>
                     <a
-                      rel="noopener noreferrer" href="!#"
+                      rel="noopener noreferrer"
+                      href="!#"
                       class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-500"
                     >
                       John snow
@@ -47,7 +48,8 @@ function Blog() {
                   </div>
 
                   <a
-                    rel="noopener noreferrer" href="!#"
+                    rel="noopener noreferrer"
+                    href="!#"
                     class="inline-block text-blue-500 underline hover:text-blue-400"
                   >
                     Read more
@@ -56,7 +58,7 @@ function Blog() {
               </div>
             </div>
 
-            <div  >
+            <div>
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -64,13 +66,13 @@ function Blog() {
               />
 
               <div class="mt-8">
-                <span class="text-blue-500 uppercase">category</span>
+                <span class="text-sky-500 uppercase">category</span>
 
-                <h1 class="mt-4 text-xl font-semibold text-gray-800 ">
+                <h1 class="mt-4 text-xl font-semibold text-sky-500  ">
                   All the features you want to know
                 </h1>
 
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-white ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                   est asperiores vel, ab animi recusandae nulla veritatis id
                   tempore sapiente
@@ -79,19 +81,18 @@ function Blog() {
                 <div class="flex items-center justify-between mt-4">
                   <div>
                     <a
-                     href="!#"
+                      href="!#"
                       class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-500"
                     >
                       Arthur Melo
                     </a>
 
-                    <p class="text-sm text-gray-500 dark:text-gray-400">
-                      February 6, 2022
-                    </p>
+                    <p class="text-sm text-gray-500 ">February 6, 2022</p>
                   </div>
 
                   <a
-                    rel="noopener noreferrer" href="!#"
+                    rel="noopener noreferrer"
+                    href="!#"
                     class="inline-block text-blue-500 underline hover:text-blue-400"
                   >
                     Read more
@@ -100,7 +101,7 @@ function Blog() {
               </div>
             </div>
 
-            <div >
+            <div>
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
@@ -108,13 +109,13 @@ function Blog() {
               />
 
               <div class="mt-8">
-                <span class="text-blue-500 uppercase">category</span>
+                <span class="text-sky-500 uppercase">category</span>
 
-                <h1 class="mt-4 text-xl font-semibold text-gray-800 ">
+                <h1 class="mt-4 text-xl font-semibold text-sky-500  ">
                   Which services you get from Meraki UI
                 </h1>
 
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-white">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                   est asperiores vel, ab animi recusandae nulla veritatis id
                   tempore sapiente
@@ -123,7 +124,8 @@ function Blog() {
                 <div class="flex items-center justify-between mt-4">
                   <div>
                     <a
-                      rel="noopener noreferrer" href="!#"
+                      rel="noopener noreferrer"
+                      href="!#"
                       class="text-lg font-medium text-gray-700  hover:underline hover:text-gray-500"
                     >
                       Tom Hank
@@ -133,7 +135,8 @@ function Blog() {
                   </div>
 
                   <a
-                    rel="noopener noreferrer" href="!#"
+                    rel="noopener noreferrer"
+                    href="!#"
                     class="inline-block text-blue-500 underline hover:text-blue-400"
                   >
                     Read more

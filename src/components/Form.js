@@ -94,12 +94,9 @@ function Form() {
         class="
 		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1665478447/13107749_5137894_wj41iq.jpg')]  h-full w-full bg-cover bg-no-repeat  "
       >
-        <div
-            
-          className="container py-20 mx-auto lg:py-24"
-        >
+        <div className="container py-20 mx-auto lg:py-24">
           {loadingInProgress ? (
-            <div    className="flex justify-center h-56 gap-4">
+            <div className="flex justify-center h-56 gap-4">
               <div className="grid content-center">
                 <div
                   class="w-12 h-12 rounded-full animate-spin
@@ -108,9 +105,9 @@ function Form() {
               </div>
             </div>
           ) : (
-            <div   className="relative p-10 text-gray-100 rounded-lg sm:p-12 md:p-16 bg-slate-50 ">
-              <div tw ="mx-auto max-w-4xl">
-                <h2 className="text-3xl font-bold text-black sm:text-4xl">
+            <div className="relative p-10 text-gray-100 rounded-lg sm:p-12 md:p-16 bg-gray-900 ">
+              <div tw="mx-auto max-w-4xl">
+                <h2 className="text-3xl font-bold text-sky-500 sm:text-4xl">
                   Organize an Event
                 </h2>
                 <div className="">
@@ -123,7 +120,7 @@ function Form() {
                           name="email"
                           onChange={(e) => setEmail(e.target.value)}
                           id="email"
-                          class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600"
+                          class="peer h-10 w-full bg-slate-700 border-b-2 border-sky-500 text-white placeholder-transparent focus:outline-none focus:border-sky-700"
                           placeholder="john@doe.com"
                         />
                         <p className="font-semibold text-red-500 font-Poppins">
@@ -131,7 +128,7 @@ function Form() {
                         </p>
                         <label
                           for="email"
-                          class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm"
+                          class="absolute left-0 -top-3.5 text-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-sky-500 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-sky-600 peer-focus:text-sm"
                         >
                           Email address
                         </label>
@@ -208,7 +205,7 @@ function Form() {
                   </form>
                 </div>
               </div>
-              <ScrollToTop/>
+              <ScrollToTop />
             </div>
           )}
         </div>

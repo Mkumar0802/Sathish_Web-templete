@@ -4,6 +4,7 @@ import { loadProgressBar } from "axios-progress-bar";
 import "axios-progress-bar/dist/nprogress.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Form from "./components/Form.js";
 // ..
 AOS.init();
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="edit" element={<Edit />} /> */}
 
           <Route path="home" element={<Home />} />
+          <Route path="form" element={<Form/>} />
 
           <Route
             path="*"
