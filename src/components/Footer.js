@@ -4,18 +4,13 @@ function Footer() {
   return (
     <footer className="bg-gray-900">
       <div className="container flex flex-col p-4 mx-auto divide-gray-400 md:p-8 lg:flex-row">
-        <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
-          <li>   All Right Reserved@{(new Date().getFullYear())}</li>
-          <li></li>
-         
-        </ul>
         <div className="flex flex-col justify-center pt-6 lg:pt-0">
           <div className="flex justify-center space-x-4">
             <a
               rel="noopener noreferrer"
               href="!#"
               title="Instagram"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-sky-500 text-white "
+              className="flex items-center justify-center w-8 h-8 text-white rounded-full sm:w-10 sm:h-10 bg-sky-500 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +25,7 @@ function Footer() {
               rel="noopener noreferrer"
               href="!#"
               title="Pinterest"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10  bg-sky-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white rounded-full sm:w-10 sm:h-10 bg-sky-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +40,7 @@ function Footer() {
               rel="noopener noreferrer"
               href="!#"
               title="Twitter"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-sky-500 text-white "
+              className="flex items-center justify-center w-8 h-8 text-white rounded-full sm:w-10 sm:h-10 bg-sky-500 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +55,7 @@ function Footer() {
               rel="noopener noreferrer"
               href="!#"
               title="Facebook"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10  bg-sky-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white rounded-full sm:w-10 sm:h-10 bg-sky-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +70,7 @@ function Footer() {
               rel="noopener noreferrer"
               href="!#"
               title="Gmail"
-              className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10  bg-sky-500 text-white"
+              className="flex items-center justify-center w-8 h-8 text-white rounded-full sm:w-10 sm:h-10 bg-sky-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,6 +83,12 @@ function Footer() {
             </a>
           </div>
         </div>
+        
+          <ul className="self-center py-6 space-y-4 text-center text-white sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-evenly">
+            <li> All Right Reserved@{new Date().getFullYear()}</li>
+            <li>Deveploment and Maintainted by Muthukumar</li>
+          </ul>
+       
       </div>
     </footer>
   );

@@ -24,11 +24,11 @@ function Blog() {
               <div class="mt-8">
                 <span class="text-sky-500 uppercase">category</span>
 
-                <h1 class="mt-4 text-xl font-semibold text-sky-500  ">
+                <h1 class="mt-4 text-xl font-semibold text-sky-500 text-center ">
                   What do you want to know about UI
                 </h1>
 
-                <p class="mt-2 text-white ">
+                <p class="mt-2 text-white text-justify ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                   est asperiores vel, ab animi recusandae nulla veritatis id
                   tempore sapiente
@@ -39,7 +39,7 @@ function Blog() {
                     <a
                       rel="noopener noreferrer"
                       href="!#"
-                      class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-500"
+                      class="text-lg font-medium text-gray-300 hover:underline hover:text-gray-500"
                     >
                       John snow
                     </a>
@@ -68,7 +68,7 @@ function Blog() {
               <div class="mt-8">
                 <span class="text-sky-500 uppercase">category</span>
 
-                <h1 class="mt-4 text-xl font-semibold text-sky-500  ">
+                <h1 class="mt-4 text-xl font-semibold text-sky-500 text-center">
                   All the features you want to know
                 </h1>
 
@@ -82,7 +82,7 @@ function Blog() {
                   <div>
                     <a
                       href="!#"
-                      class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-500"
+                      class="text-lg font-medium text-gray-300 hover:underline hover:text-gray-500"
                     >
                       Arthur Melo
                     </a>
@@ -111,11 +111,11 @@ function Blog() {
               <div class="mt-8">
                 <span class="text-sky-500 uppercase">category</span>
 
-                <h1 class="mt-4 text-xl font-semibold text-sky-500  ">
+                <h1 class="mt-4 text-xl font-semibold text-sky-500 text-center   ">
                   Which services you get from Meraki UI
                 </h1>
 
-                <p class="mt-2 text-white">
+                <p class="mt-2 text-white text-justify">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                   est asperiores vel, ab animi recusandae nulla veritatis id
                   tempore sapiente
@@ -126,7 +126,7 @@ function Blog() {
                     <a
                       rel="noopener noreferrer"
                       href="!#"
-                      class="text-lg font-medium text-gray-700  hover:underline hover:text-gray-500"
+                      class="text-lg font-medium text-gray-300  hover:underline hover:text-gray-500"
                     >
                       Tom Hank
                     </a>

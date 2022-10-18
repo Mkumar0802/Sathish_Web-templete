@@ -92,7 +92,7 @@ function Form() {
     <div className="relative bg-gray-900">
       <div
         class="
-		md:bg-[url('https://res.cloudinary.com/drywqd3hf/image/upload/v1665478447/13107749_5137894_wj41iq.jpg')]  h-full w-full bg-cover bg-no-repeat  "
+		md:bg-[url('https://res.cloudinary.com/dtlhsyzip/image/upload/v1665758593/imgpsh_fullsize_anim_z69seb.jpg')]  h-full w-full bg-cover bg-no-repeat  "
       >
         <div className="container py-20 mx-auto lg:py-24">
           {loadingInProgress ? (
@@ -105,7 +105,7 @@ function Form() {
               </div>
             </div>
           ) : (
-            <div className="relative p-10 text-gray-100 rounded-lg sm:p-12 md:p-16 bg-gray-900 ">
+            <div className="relative p-10 text-gray-100 bg-gray-900 rounded-lg sm:p-12 md:p-16 ">
               <div tw="mx-auto max-w-4xl">
                 <h2 className="text-3xl font-bold text-sky-500 sm:text-4xl">
                   Organize an Event
@@ -140,7 +140,7 @@ function Form() {
                           type="text"
                           name="name"
                           id="name"
-                          class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600"
+                          class="peer h-10 w-full bg-slate-700 border-b-2 border-sky-500 text-white placeholder-transparent focus:outline-none focus:border-sky-700"
                           placeholder="Name"
                         />
                         <p className="font-semibold text-red-500">
@@ -148,7 +148,7 @@ function Form() {
                         </p>
                         <label
                           for="name"
-                          class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm"
+                          class="absolute left-0 -top-3.5 text-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-sky-500 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-sky-600 peer-focus:text-sm"
                         >
                           Name
                         </label>
@@ -160,7 +160,7 @@ function Form() {
                           id="number"
                           type="text"
                           name="mobile"
-                          class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600"
+                          class="peer h-10 w-full bg-slate-700 border-b-2 border-sky-500 text-white placeholder-transparent focus:outline-none focus:border-sky-700"
                           placeholder="Mobile Number"
                         />
                         <p className="font-semibold text-red-500 font-Poppins">
@@ -168,7 +168,7 @@ function Form() {
                         </p>
                         <label
                           for="number"
-                          class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm"
+                          class="absolute left-0 -top-3.5 text-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-sky-500 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-sky-600 peer-focus:text-sm"
                         >
                           Mobile Number
                         </label>
@@ -180,7 +180,7 @@ function Form() {
                           onChange={(e) => setTextarea(e.target.value)}
                           type="text"
                           ame="textarea"
-                          class="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600"
+                          class="peer h-10 w-full bg-slate-700 border-b-2 border-sky-500 text-white placeholder-transparent focus:outline-none focus:border-sky-700"
                           placeholder="Text Message"
                         />
                         <p className="font-semibold text-red-500">
@@ -188,7 +188,7 @@ function Form() {
                         </p>
                         <label
                           for="textarea"
-                          class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm"
+                          class="absolute left-0 -top-3.5 text-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-sky-500 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-sky-600 peer-focus:text-sm"
                         >
                           Text Message
                         </label>
