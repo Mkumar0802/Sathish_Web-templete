@@ -11,6 +11,7 @@ import Form from "./Form";
 import { motion, useScroll } from "framer-motion";
 import TestimonialNew from "./TestimonialNew";
 import Stastic from "./Stastic";
+import Whatapp from "./Whatapp";
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -40,14 +41,9 @@ function Home() {
   transform-origin: 0%"
         style={{ scaleX: scrollYProgress }}
       />
-      <Section
-        class="wow slideInLeft"
-        data-wow-duration="2s"
-        data-wow-delay="5s"
-      >
-        {" "}
-        <Content />{" "}
-      </Section>
+
+      <Content />
+
       <Section>
         <Features />
       </Section>
@@ -61,7 +57,7 @@ function Home() {
       <Section>
         <Form />
       </Section>
-
+      <Whatapp />
       <Footer />
     </div>
   );

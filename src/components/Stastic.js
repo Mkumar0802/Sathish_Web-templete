@@ -25,12 +25,12 @@ function Stastic() {
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
                   {({ isVisible }) => (
                     <div className="" style={{ height: 100 }}>
-                      <div className="grid grid-flow-row grid-cols-3 p-3 mt-5 text-white">
+                      <div className="grid grid-flow-row grid-cols-3 p-3 mt-5 text-white md:text-3xl ">
                         <div class="">
                           <h2 class="title-font font-medium text-3xl ">
                             {isVisible ? (
                               <CountUp start={0} end={100} delay={0} />
-                            ) : null}
+                            ) : null}+
                           </h2>
                           <p class="leading-relaxed">Subscribes</p>
                         </div>
@@ -38,7 +38,7 @@ function Stastic() {
                           <h2 class="title-font font-medium text-3xl text-white">
                             {isVisible ? (
                               <CountUp start={0} end={100} delay={1} />
-                            ) : null}
+                            ) : null}+
                           </h2>
                           <p class="leading-relaxed ">Downloads</p>
                         </div>
@@ -46,7 +46,7 @@ function Stastic() {
                           <h2 class="title-font font-medium text-3xl text-white">
                             {isVisible ? (
                               <CountUp start={0} end={100} delay={2} />
-                            ) : null}
+                            ) : null}+
                           </h2>
                           <p class="leading-relaxed ">Products</p>
                         </div>

@@ -3,6 +3,8 @@ import Header from "./Header";
 import { motion } from "framer-motion";
 // import Navbar from "./Navbar";
 import { Link } from "react-scroll";
+// import WhatsAppWidget from "react-whatsapp-chat-widget";
+import "react-whatsapp-chat-widget/index.css";
 
 function Content() {
   return (
