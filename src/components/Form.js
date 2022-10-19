@@ -107,7 +107,7 @@ function Form() {
           ) : (
             <div className="relative p-10 text-gray-100 bg-gray-900 rounded-lg sm:p-12 md:p-16 ">
               <div tw="mx-auto max-w-4xl">
-                <h2 className="text-3xl font-bold text-sky-500 sm:text-4xl">
+                <h2 className="text-3xl font-bold text-center text-sky-500 sm:text-4xl ">
                   Organize an Event
                 </h2>
                 <div className="">
