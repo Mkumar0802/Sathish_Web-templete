@@ -30,7 +30,8 @@ function Stastic() {
                           <h2 class="title-font font-medium text-3xl ">
                             {isVisible ? (
                               <CountUp start={0} end={100} delay={0} />
-                            ) : null}+
+                            ) : null}
+                            +
                           </h2>
                           <p class="leading-relaxed">Subscribes</p>
                         </div>
@@ -38,7 +39,8 @@ function Stastic() {
                           <h2 class="title-font font-medium text-3xl text-white">
                             {isVisible ? (
                               <CountUp start={0} end={100} delay={1} />
-                            ) : null}+
+                            ) : null}
+                            +
                           </h2>
                           <p class="leading-relaxed ">Downloads</p>
                         </div>
@@ -46,7 +48,8 @@ function Stastic() {
                           <h2 class="title-font font-medium text-3xl text-white">
                             {isVisible ? (
                               <CountUp start={0} end={100} delay={2} />
-                            ) : null}+
+                            ) : null}
+                            +
                           </h2>
                           <p class="leading-relaxed ">Products</p>
                         </div>
@@ -60,7 +63,7 @@ function Stastic() {
             <div class="space-y-10">
               <img
                 className="grid items-center h-3/5 rounded-xl"
-                src="https://images.unsplash.com/photo-1661347333292-b783583d4210?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80://images.unsplash.com/photo-1611963169787-ac9e3a65b27b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                src="https://res.cloudinary.com/dtlhsyzip/image/upload/v1666372658/39cdbbaf-0daa-4bf4-84e4-ec72e63d2ce1_lmhqso.jpg"
                 alt="just"
               />
             </div>

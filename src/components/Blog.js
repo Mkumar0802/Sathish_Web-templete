@@ -17,7 +17,8 @@ function Blog() {
             <div>
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
-                src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                // src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                src="https://res.cloudinary.com/dtlhsyzip/image/upload/v1665861788/dea4db20-3379-4ccb-baa5-09fc2dbe92ce_du0s7r.jpg"
                 alt="sample"
               />
 
@@ -61,7 +62,8 @@ function Blog() {
             <div>
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
-                src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                // src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                src="https://res.cloudinary.com/dtlhsyzip/image/upload/v1666372659/12ee8222-b044-40da-a905-75d480aebc4a_esy5hi.jpg"
                 alt="sample"
               />
 
