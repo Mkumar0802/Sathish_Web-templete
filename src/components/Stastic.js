@@ -25,7 +25,7 @@ function Stastic() {
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
                   {({ isVisible }) => (
                     <div className="" style={{ height: 100 }}>
-                      <div className="grid grid-flow-row grid-cols-3 p-3 mt-5 text-white md:text-3xl ">
+                      <div className="grid grid-flow-row grid-cols-3 p-3 mt-5 mb-5 text-base text-justify text-white sm:text-left md:text-lg ">
                         <div class="">
                           <h2 class="title-font font-medium text-3xl ">
                             {isVisible ? (
