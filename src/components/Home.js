@@ -12,6 +12,7 @@ import { motion, useScroll } from "framer-motion";
 import TestimonialNew from "./TestimonialNew";
 import Stastic from "./Stastic";
 import Whatapp from "./Whatapp";
+import Team from "./Team";
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -51,13 +52,15 @@ function Home() {
         <Blog />
       </Section>
       <Section>
-        <TestimonialNew />
         <Stastic />
       </Section>
       <Section>
+        <Team />
+        <TestimonialNew />
         <Form />
       </Section>
       <Whatapp />
+
       <Footer />
     </div>
   );
