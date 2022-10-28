@@ -8,6 +8,8 @@ import Form from "./components/Form.js";
 // ..
 AOS.init();
 
+AOS.refresh();
+
 loadProgressBar();
 
 function App() {

@@ -18,7 +18,11 @@ function TestimonialNew() {
           <div className="p-6 xl:col-span-3">
             <div className="grid gap-4 md:grid-cols-2">
               <div className="grid content-center gap-4">
-                <div className="p-6 text-white rounded shadow-md ">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                  className="p-6 text-white rounded shadow-md text-justify md:text-left border-sky-50 border"
+                >
                   <p>
                     An audire commodo habemus cum. Ne sed corrumpit repudiandae.
                     Tota aliquip democritum pro in, nec democritum intellegam
@@ -30,7 +34,7 @@ function TestimonialNew() {
                     <img
                       src="https://source.unsplash.com/50x50/?portrait?1"
                       alt=""
-                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="w-12 h-12 bg-center bg-cover rounded-full "
                     />
                     <div>
                       <p className="text-lg font-semibold">Leroy Jenkins</p>
@@ -38,7 +42,11 @@ function TestimonialNew() {
                     </div>
                   </div>
                 </div>
-                <div className="p-6 text-white rounded shadow-md">
+                <div
+                  data-aos="zoom-out"
+                  data-aos-duration="2000"
+                  className="p-6 text-white rounded shadow-md text-justify  md:text-end border-sky-50 border"
+                >
                   <p>
                     Sit wisi sapientem ut, pri civibus temporibus voluptatibus
                     et, ius cu hinc fabulas. Nam meliore minimum et, regione
@@ -61,7 +69,11 @@ function TestimonialNew() {
                 </div>
               </div>
               <div className="grid content-center gap-4">
-                <div className="p-6 text-white rounded shadow-md dark:bg-gray-900">
+                <div
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  className="p-6 text-white rounded shadow-md text-justify  md:text-right border-sky-50 border"
+                >
                   <p>
                     Putant omnium elaboraret per ut. Id dicta tritani nominavi
                     quo, mea id justo errem elaboraret. Agam mollis scripserit
@@ -74,17 +86,19 @@ function TestimonialNew() {
                     <img
                       src="https://source.unsplash.com/50x50/?portrait?3"
                       alt=""
-                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="w-12 h-12 bg-center bg-cover rounded-full "
                     />
                     <div>
                       <p className="text-lg font-semibold">Leroy Jenkins</p>
-                      <p className="text-sm text-sky-500">
-                        CTO of Company Co.
-                      </p>
+                      <p className="text-sm text-sky-500">CTO of Company Co.</p>
                     </div>
                   </div>
                 </div>
-                <div className="p-6 text-white rounded shadow-md dark:bg-gray-900">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                  className="p-6 text-white rounded shadow-md text-justify md:text-left border-sky-50 border"
+                >
                   <p>
                     Te omnes virtute volutpat sed. Ei esse eros interesset vel,
                     ei populo denique ocurreret vix, eu cum pertinax mandamus
@@ -99,13 +113,11 @@ function TestimonialNew() {
                     <img
                       src="https://source.unsplash.com/50x50/?portrait?4"
                       alt=""
-                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="w-12 h-12 bg-center bg-cover rounded-full "
                     />
                     <div>
                       <p className="text-lg font-semibold">Leroy Jenkins</p>
-                      <p className="text-sm text-sky-500">
-                        CTO of Company Co.
-                      </p>
+                      <p className="text-sm text-sky-500">CTO of Company Co.</p>
                     </div>
                   </div>
                 </div>

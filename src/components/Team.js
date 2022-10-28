@@ -17,7 +17,7 @@ function Team() {
             </div>
 
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-0 xl:mx-4 xl:w-1/2 md:grid-cols-2">
-              <div>
+              <div data-aos="zoom-in">
                 <img
                   class="object-cover rounded-xl aspect-square"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
@@ -31,7 +31,7 @@ function Team() {
                 </p>
               </div>
 
-              <div>
+              <div data-aos="zoom-in">
                 <img
                   class="object-cover rounded-xl aspect-square"
                   src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
