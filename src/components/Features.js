@@ -8,19 +8,22 @@ function Features() {
         <div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24 ">
           <div>
             <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-sky-500 md:leading-tight sm:text-left md:text-4xl ">
-              Clear overview for efficient tracking
+              Decide how you integrate Payments
             </h2>
             <p class="mb-5 text-base text-justify text-white sm:text-left md:text-lg">
-              Handle your subscriptions and transactions efficiently with the
-              clear overview in Dashboard. Features like the smart search option
-              allow you to quickly find any data you’re looking for.
+              I am a wedding photographer based in Chennai I record marriage
+              moments from a special “cafa” angle, and create love memories with
+              passion. I have won some awards of Times of India in the first
+              three years of my carreer. I am not a story-maker, but a
+              story-teller, telling the love stories in an artistically way. I
+              provide service beyond Chennai area.
             </p>
             <Link to="/home" class="w-full btn btn-dark btn-lg sm:w-auto">
               Learn More
             </Link>
           </div>
 
-          <div data-aos="zoom-in" class=" ">
+          <div class=" ">
             <img
               className="h-3/5 rounded-xl"
               src="https://images.unsplash.com/photo-1661347333292-b783583d4210?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80://images.unsplash.com/photo-1611963169787-ac9e3a65b27b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
@@ -36,15 +39,18 @@ function Features() {
               Decide how you integrate Payments
             </h2>
             <p class="mb-5 text-base text-justify text-white sm:text-left md:text-lg">
-              Love to code? Next to our ready-made and free plugins you can use
-              our expansive yet simple API; decide how you integrate Payments
-              and build advanced and reliable products yourself from scratch.
+              Wedding Photography Quotes We have complied a list of wedding
+              photography quotes for your enjoyment.? Being a photographer is
+              serious business to us and I can relate to a lot of these quotes.?
+              Feel free to read through these quotes and become inspired.? You
+              will find some of the greatest photographers writing about their
+              love, the art of photography.
             </p>
             <Link to="/home" class="w-full btn btn-dark btn-lg sm:w-auto">
               Learn More
             </Link>
           </div>
-          <div data-aos="zoom-in" class=" ">
+          <div class=" ">
             {" "}
             <img
               className="rounded-xl"

@@ -14,7 +14,7 @@ function Blog() {
           <hr class="my-8 border-sky-500 " />
 
           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
-            <div data-aos="zoom-in" data-aos-duration = "1000">
+            <div>
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -26,13 +26,12 @@ function Blog() {
                 <span class="text-sky-500 uppercase">category</span>
 
                 <h1 class="mt-4 text-xl font-semibold text-sky-500 text-center ">
-                  What do you want to know about UI
+                  OUR PHOTOGRAPHY SERVICES
                 </h1>
 
                 <p class="mt-2 text-white text-justify ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                  est asperiores vel, ab animi recusandae nulla veritatis id
-                  tempore sapiente
+                  Hindu Wedding, Christian Wedding, Engagements, Baby Shower,
+                  Maternity Shoot, Birthday functions
                 </p>
 
                 <div class="flex items-center justify-between mt-4">
@@ -59,7 +58,7 @@ function Blog() {
               </div>
             </div>
 
-            <div data-aos="zoom-in" data-aos-duration="1500">
+            <div>
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -103,7 +102,7 @@ function Blog() {
               </div>
             </div>
 
-            <div data-aos="zoom-in" data-aos-duration="2000">
+            <div>
               <img
                 class="object-cover object-center w-full h-64 rounded-lg lg:h-80"
                 src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"

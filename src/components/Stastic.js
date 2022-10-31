@@ -7,7 +7,7 @@ function Stastic() {
   return (
     <div class="">
       <div className="bg-gray-900 ">
-        <div class="container mx-auto py-24  ">
+        <div class="container mx-auto py-24">
           <div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24 ">
             <div className="">
               <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-sky-500 md:leading-tight sm:text-left md:text-4xl ">
@@ -60,7 +60,7 @@ function Stastic() {
               </div>
             </div>
 
-            <div data-aos="zoom-in" class="space-y-10">
+            <div class="space-y-10">
               <img
                 className="grid items-center h-3/5 rounded-xl"
                 // src="https://res.cloudinary.com/dtlhsyzip/image/upload/v1666372658/39cdbbaf-0daa-4bf4-84e4-ec72e63d2ce1_lmhqso.jpg"

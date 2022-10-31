@@ -36,7 +36,7 @@ function Section({ children }) {
 function Home() {
   const { scrollYProgress } = useScroll();
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth bg-gray-900">
       <motion.div
         className=" fixed inset-x-0 h-2 top-20 bg-sky-500 text-2xl font-medium text-red-500 text-center p-0.5 leading-none rounded-l-full
   transform-origin: 0%"

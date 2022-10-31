@@ -29,11 +29,14 @@ function Content() {
           />
 
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold text-white">Hello there</h1>
+            <h1 className="mb-5 text-5xl font-bold text-white">WHO WE ARE ?</h1>
             <p className="mb-5 text-white">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              We are SKS Wedding Photography & Videography Service...As a
+              professional wedding videographer and photographer from Chennai,
+              Tamilnadu. We have nearly a decade of experience in modern
+              photography and videography. Our dedicated & passionate
+              professionals will photograph very precious moments of this great
+              event of your life passionately.
             </p>
             <Link
               to="form"
